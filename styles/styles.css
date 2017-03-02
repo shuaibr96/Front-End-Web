@@ -215,3 +215,63 @@ nav {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+#StormCon{
+	width:1000px;
+	margin:0 auto;
+}
+
+#stormzy{
+	border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(border.png) 30% round; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 30% round; /* Opera 11-12.1 */
+    border-image: url(border.png) 30% round;
+}
+
+#Kudi{
+	border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(border.png) 30% round; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 30% round; /* Opera 11-12.1 */
+    border-image: url(border.png) 30% round;
+	
+}
+
+#BeyCon{
+	width:1000px;
+	margin:0 auto;
+}
+
+#BeyCar{
+	float:left;
+	margin-left: 470px;
+	margin-top: 412px;
+	
+}
+
+#WekCon{
+	width:1000px;
+	margin:0 auto;
+}
+
+#WekAl{
+	position: relative;
+	left: 215px;
+	border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(border.png) 30% round; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 30% round; /* Opera 11-12.1 */
+    border-image: url(border.png) 30% round;
+}
+
+#thumbs{
+	text-align: center
+}
+
+/* DOM (Document Object Model) API
+when using DOM languages you are interacting with html without actually changing the code.*/
+
+
+
+/* https://www.youtube.com/watch?v=aPtA4nYkvDw */
