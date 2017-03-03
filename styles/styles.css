@@ -12,12 +12,14 @@ body {
     margin: 0 auto;
 }
 
-nav {
+nav{
     background-color: #444;
     position: relative;
+	oveflow: hidden;
 }
 
-.menu-main, .submenu, .drop-down ol, .slider-container {
+
+.menu-main, .slider-container {
     margin: 0 auto;
     padding: 0;
     list-style: none;
@@ -38,6 +40,7 @@ nav {
 .menu-main > li {
     float: left;
     width: 22.222%;
+	overflow: hidden;
 }
 
 .menu-main a {
@@ -61,69 +64,6 @@ nav {
 
 /* end of nav bar */
 
-/* create dropdown divider */
-.drop-down:before {
-    content: "";
-    border-left: 1px solid #444;
-    position: absolute;
-    height: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    width: 30px;
-    border-radius: 0 3px 3px 0;
-}
-/* change dropdown gradient background on mouse over */
-.drop-down:hover:before {
-    background: linear-gradient(0deg, #fff 0%, #ddd 100%);
-}
-/* dropdown label */
-.drop-down .toggle-drop-down {
-    text-decoration: none;
-    color: inherit;
-    font-weight: 600;
-    display: block;
-    padding: 0 20px;
-    position: relative;
-    z-index: 0;
-    cursor: pointer;
-}
-/* drop down tip */
-.drop-down .caret {
-    position: absolute;
-    top: 12px;
-    right: 8px;
-    border-width: 8px;
-    border-style: solid;
-    border-color: #444 transparent transparent;
-    cursor: pointer;
-    z-index: 2;
-}
-/* drop down content */
-.drop-down ol {
-    margin-top: 11px;
-    background-color: #444;
-    position: absolute;
-    right: 0;
-    min-width: 200px;
-    transform: rotateX(80deg);
-    transition: transform 0.4s, opacity 0.4s;
-    transform-origin: top;
-    opacity: 0;
-}
-/* show animated drop down content when label clicked */
-.drop-down :checked + ol{
-    transform: rotateX(0deg);
-    opacity: 1;
-}
-
-.drop-down ol a{
-    display: block;
-    text-decoration: none;
-    padding: 5px 10px;
-    color: #fff;
-    border-top: 1px solid #777;
-}
 
 * Slideshow container */
 .slideshow-container {
@@ -178,8 +118,7 @@ nav {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
-  position: absolute;
-  top: 10px;
+ 
 }
 
 /* The dots/bullets/indicators */
@@ -235,7 +174,6 @@ nav {
     -webkit-border-image: url(border.png) 30% round; /* Safari 3.1-5 */
     -o-border-image: url(border.png) 30% round; /* Opera 11-12.1 */
     border-image: url(border.png) 30% round;
-	
 }
 
 #BeyCon{
@@ -266,12 +204,37 @@ nav {
 }
 
 #thumbs{
-	text-align: center
+	text-align: center;
 }
+
+#center{
+	text-align: center;
+}
+
+.grimecon{
+	margin-left:%;
+}
+
+@media screen and (max-width:600px){
+	nav ul{
+		max-height: 0;
+	}
+	.showing{
+		max-height: 20em;
+	}
+	.menu-main li{
+		box-sizing: border-box;
+		width: 100%;
+		text-align: left;
+	}
+	.dot{
+		height: 21px;
+		width: 21px;
+	}
+}
+
 
 /* DOM (Document Object Model) API
 when using DOM languages you are interacting with html without actually changing the code.*/
-
-
 
 /* https://www.youtube.com/watch?v=aPtA4nYkvDw */
