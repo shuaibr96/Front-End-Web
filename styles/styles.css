@@ -156,63 +156,65 @@ nav{
 }
 
 #StormCon{
-	width:1000px;
+	width:60%;
 	margin:0 auto;
 }
 
-#stormzy{
-	border: 10px solid transparent;
-    padding: 15px;
-    -webkit-border-image: url(border.png) 30% round; /* Safari 3.1-5 */
-    -o-border-image: url(border.png) 30% round; /* Opera 11-12.1 */
-    border-image: url(border.png) 30% round;
+#StormCon img{
+	width:55%; 
+	height:auto;
+	padding: 1% 2%;
 }
 
-#Kudi{
-	border: 10px solid transparent;
-    padding: 15px;
-    -webkit-border-image: url(border.png) 30% round; /* Safari 3.1-5 */
-    -o-border-image: url(border.png) 30% round; /* Opera 11-12.1 */
-    border-image: url(border.png) 30% round;
+#hbling{
+	width:60%;
+	margin:0 auto;
+}
+
+#hbling img{
+	width:55%; 
+	height:auto;
+	padding: 1% 2%;
 }
 
 #BeyCon{
-	width:1000px;
+	width:55%;
 	margin:0 auto;
 }
 
-#BeyCar{
-	float:left;
-	margin-left: 470px;
-	margin-top: 412px;
-	
+#BeyCon img{
+	width:60%;
+	margin:0 auto;
 }
 
 #WekCon{
-	width:1000px;
+	width:55%;
 	margin:0 auto;
 }
 
-#WekAl{
-	position: relative;
-	left: 215px;
-	border: 10px solid transparent;
-    padding: 15px;
-    -webkit-border-image: url(border.png) 30% round; /* Safari 3.1-5 */
-    -o-border-image: url(border.png) 30% round; /* Opera 11-12.1 */
-    border-image: url(border.png) 30% round;
+#WekCon img{
+	width:60%;
+	margin-left: 19%;
+	
 }
 
 #thumbs{
-	text-align: center;
+	margin-left: 9%;
+	padding: 2%;
+}
+
+#thumbs img{
+	width:22%;
 }
 
 #center{
 	text-align: center;
 }
 
-.grimecon{
-	margin-left:%;
+.grimecon img{
+	margin-left: 4%;
+	width:28%; 
+	height:auto;
 }
 
 @media screen and (max-width:600px){
@@ -230,6 +232,9 @@ nav{
 	.dot{
 		height: 21px;
 		width: 21px;
+	}
+	.grimecon{
+		
 	}
 }
 
