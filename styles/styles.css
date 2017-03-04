@@ -194,8 +194,17 @@ nav{
 
 #WekCon img{
 	width:60%;
-	margin-left: 19%;
-	
+	margin-left: 19%;	
+}
+
+#ChainCon{
+	width:55%;
+	margin:0 auto;
+}
+
+#ChainCon{
+	width:60%;
+	margin-left: 19%;	
 }
 
 #thumbs{
@@ -233,8 +242,11 @@ nav{
 		height: 21px;
 		width: 21px;
 	}
-	.grimecon{
-		
+	#thumbs img{
+		width:90%;
+	}
+	.grimecon img{
+		width:90%; 
 	}
 }
 
