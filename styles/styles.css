@@ -221,7 +221,6 @@ nav{
 }
 .grimecon{
 	border: 1px solid #ddd;
-  
     padding: 5px;
     width: 55%;
 }
@@ -236,10 +235,20 @@ nav{
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
+.HouCon{
+	border: 1px solid #ddd;
+    padding: 5px;
+    width: 55%;
+}
+
 .HouCon img{
 	margin-left: 4%;
 	width:28%; 
 	height:auto;
+}
+
+.HouCon img:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 @media screen and (max-width:600px){
@@ -262,7 +271,12 @@ nav{
 		width:90%;
 	}
 	.grimecon img{
-		width:100%; 
+		width:350px; 
+		margin-left: 12%
+	}
+	.grimecon tr td{
+		float: left;
+		left: 20%;
 	}
 }
 
