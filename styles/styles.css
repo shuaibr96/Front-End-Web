@@ -28,7 +28,7 @@ nav{
 .menu-main {
     text-align: center;
     position: relative;
-    width: 900px;
+    width: 99%;
 }
 
 .menu-main:after, .submenu:after {
@@ -155,6 +155,8 @@ nav{
   to {opacity: 1}
 }
 
+/* Website Content */
+
 #StormCon{
 	width:60%;
 	margin:0 auto;
@@ -216,6 +218,12 @@ nav{
 	width:22%;
 }
 
+#thumbs img:hover{
+	-webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
 #center{
 	text-align: center;
 }
@@ -260,7 +268,7 @@ nav{
 
 .HouCon img{
 	margin-left: 4%;
-	width:28%; 
+	width:90%; 
 	height:auto;
 }
 
@@ -268,7 +276,7 @@ nav{
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:620px){
 	nav ul{
 		max-height: 0;
 	}
@@ -295,6 +303,14 @@ nav{
 		float: left;
 		left: 20%;
 	}
+	.HouCon img{
+		width:350px; 
+		margin-left: 12%
+	}
+	.HouCon tr td{
+		float: left;
+		left: 20%;
+	}
 	.RBcon img{
 		width:350px; 
 		margin-left: 12%
@@ -304,6 +320,37 @@ nav{
 		left: 20%;
 	}
 }
+footer 
+{
+	background: #444;
+	text-decoration: none;
+	position: relative;
+	margin-bottom: 0;
+}
+.textright {
+	display: table-cell;
+	text-align: right;
+	font-size: 0.8em;	
+}
+	
+.textleft2 {
+	display: table-cell;
+	text-align: right;
+	font-size: 0.9em;
+	position: relative;
+	right: 16.5%;
+	margin-left: 1%;
+}
+
+.textleft3 {
+	display: table-cell;
+	text-align: right;
+	font-size: 0.9em;
+	position: relative;
+	right: 16.5%;
+	margin-left: 1%;
+}
+
 
 
 /* DOM (Document Object Model) API
