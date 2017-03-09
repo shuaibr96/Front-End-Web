@@ -224,6 +224,17 @@ nav{
     transform: scale(0.95);
 }
 
+#thumbs2 img{
+	width:20%;
+	margin-top: 45px;
+}
+
+#thumbs2 img:hover{
+	-webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
 #center{
 	text-align: center;
 }
@@ -294,6 +305,9 @@ nav{
 	}
 	#thumbs img{
 		width:90%;
+	}
+	#thumbs2 img{
+		display: none;
 	}
 	.grimecon img{
 		width:350px; 
