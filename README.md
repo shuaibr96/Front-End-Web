@@ -1,1 +1,1 @@
-![alt tag](./images/w1.jpg)
+(./images/w1.jpg)
