@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./images/h1.jpg" width="350"/>
+  <img src="./images/W1.jpg"/>
 </p>
