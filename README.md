@@ -1,8 +1,8 @@
 <p align="center">
   <img src="./images/W1.jpg"/>
-This is what the website will look like in desktop view.
+<p>This is what the website will look like in desktop view.</p>
   <img src="./images/w2.jpg"/>
-This is what the website will look like in mobile view.
+<p>This is what the website will look like in mobile view.</p>
 </p>
 These are the wireframes I created before designing my website. creating these wireframes allowed me to visualise what iw as going to do and they also made it easier for me to start creating my website. 
 
