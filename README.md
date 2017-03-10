@@ -2,7 +2,8 @@
   <img src="./images/W1.jpg"/>
 <p>This is what the website will look like in desktop view.</p>
   <img src="./images/w2.jpg"/>
-<p>This is what the website will look like in mobile view.</p>
+<p>This is what the website will look like in mobile view.when the screen exceeds a certian width. The content will be altered to match the screen size. this will be done by either completely removing content or altering the size 
+of the content.</p>
 </p>
 These are the wireframes I created before designing my website. creating these wireframes allowed me to visualise what iw as going to do and they also made it easier for me to start creating my website. 
 
